@@ -131,7 +131,7 @@ def hangman(secretWord):
 	
     while guesses <= 8 and guesses > 0:
         print('You have', guesses, 'guesses left')
-        print('Avalible Letters:', getAvailableLetters(lettersGuessed))
+        print('Available Letters:', getAvailableLetters(lettersGuessed))
         guessLetter = input('Please guess a letter: ')
         guessInLowerCase = guessLetter.lower()
         if guessInLowerCase in lettersGuessed:
