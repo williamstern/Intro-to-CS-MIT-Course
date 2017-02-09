@@ -165,5 +165,6 @@ def hangman(secretWord):
 
 secretWord = chooseWord(wordlist).lower()
 #secretWord = 'star'
+secretWord = secretWord.lower()
 hangman(secretWord)
 
